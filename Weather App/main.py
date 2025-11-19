@@ -23,6 +23,7 @@ def get_weather(city_name):
 
         print(f"\nWeather in {city_name}:")
         print(f"Temperature: {main['temp']}°C")
+        print(f"Feels Like: {main['feels_like']}°C")
         print(f"Humidity: {main['humidity']}%")
         print(f"Condition: {weather['description']}")
     else:
