@@ -28,7 +28,6 @@ def get_weather(city_name):
     else:
         print("City not found. Please try again.")
 
-#taking input of cit_name from user
 def main():
     print("--- Simple Weather App ---")
     city = input("Enter city name: ")
