@@ -176,9 +176,6 @@ class BMICalculatorApp:
             messagebox.showerror("Error", "No data to show!")
             return
 
-        # dates = [datetime.datetime.strptime(x[3], "%Y-%m-%d") for x in history]
-        # bmi_values = [x[2] for x in history]
-
         parsed = []
         for _, _, bmi, dates in history:
             date = datetime.datetime.strptime(dates, "%Y-%m-%d")
